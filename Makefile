@@ -1,7 +1,7 @@
 #------------------------------------------------------------------------------
 CPP=g++
 SOURCE=lex.yy.c parser.tab.c src/ast.cc src/ast-eval.cc src/local-environment.cc src/ast-compile.cc src/icode.cc
-MYPROGRAM=sclp
+MYPROGRAM=mysclp
 MYLIBRARY=$(CURDIR/utils)
 LDFLAGS=-Wl,-rpath=$(CURDIR/utils)
 CFLAGS=-std=c++0x
